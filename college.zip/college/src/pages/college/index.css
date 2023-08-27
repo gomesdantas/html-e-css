@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'college1';
+    src: url('../../assets/fonts/college1.woff2');
+}
+
+@font-face {
+    font-family: 'college2';
+    src: url('../../assets/fonts/college2.woff2');
+}
+
+@font-face {
+    font-family: 'college3';
+    src: url('../../assets/fonts/college3.woff2');
+}
+
+@font-face {
+    font-family: 'college4';
+    src: url('../../assets/fonts/college4.woff2');
+}
+
+@font-face {
+    font-family: 'college5';
+    src: url('../../assets/fonts/college5.ttf');
+}
+
+@font-face {
+    font-family: 'college6';
+    src: url('../../assets/fonts/college6.ttf');
+}
+
+@font-face {
+    font-family: 'college7';
+    src: url('../../assets/fonts/college7.ttf');
+}
+
+@font-face {
+    font-family: 'college8';
+    src: url('../../assets/fonts/college8.woff2');
+}
+
+@font-face {
+    font-family: 'college9';
+    src: url('../../assets/fonts/college9.woff2');
+}
+
+@font-face {
+    font-family: 'college10';
+    src: url('../../assets/fonts/college10.woff2');
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.containerfinal {
+
+    background-color: #f6f6f6;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.cabecalho2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.cabecalho2>h1 {
+
+
+    margin-bottom: 45px;
+    font-size: 43px;
+    font-family: 'college7';
+    margin-top: 128px;
+    margin-left: 65px;
+    width: 1100px;
+
+}
+
+.cabecalho2>p {
+
+    display: flex;
+    font-size: 20px;
+    font-family: 'college2';
+    margin-top: -15px;
+    margin-left: 65px;
+    margin-bottom: 80px;
+}
+
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+}
+
+.c1 > img{
+
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.c3 > img{
+
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.c1 > p{
+
+    display: ;
+
+}
+
+.c1 {
+
+    background-color: #fff;
+    border-radius: 15px;
+    height: 425px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.c2 {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 425px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.c3 {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 425px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.botoesfinais{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}

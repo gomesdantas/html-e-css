@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'college1';
+    src: url('../../assets/fonts/college1.woff2');
+}
+
+@font-face {
+    font-family: 'college2';
+    src: url('../../assets/fonts/college2.woff2');
+}
+
+@font-face {
+    font-family: 'college3';
+    src: url('../../assets/fonts/college3.woff2');
+}
+
+@font-face {
+    font-family: 'college4';
+    src: url('../../assets/fonts/college4.woff2');
+}
+
+@font-face {
+    font-family: 'college5';
+    src: url('../../assets/fonts/college5.ttf');
+}
+
+@font-face {
+    font-family: 'college6';
+    src: url('../../assets/fonts/college6.ttf');
+}
+
+@font-face {
+    font-family: 'college7';
+    src: url('../../assets/fonts/college7.ttf');
+}
+
+@font-face {
+    font-family: 'college8';
+    src: url('../../assets/fonts/college8.woff2');
+}
+
+@font-face {
+    font-family: 'college9';
+    src: url('../../assets/fonts/college9.woff2');
+}
+
+@font-face {
+    font-family: 'college10';
+    src: url('../../assets/fonts/college10.woff2');
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.containerfinal {
+
+    background-color: #f6f6f6;
+    height: 125vh;
+    width: 100vw;
+
+}
+
+.cabecalho2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.cabecalho2>h1 {
+
+
+    margin-bottom: 45px;
+    font-size: 43px;
+    font-family: 'college7';
+    margin-top: 128px;
+    margin-left: 125px;
+    width: 1200px;
+
+}
+
+.cabecalho2>p {
+
+    display: flex;
+    font-size: 20px;
+    font-family: 'college2';
+    margin-top: -15px;
+    margin-left: 125px;
+    margin-bottom: 80px;
+}
+
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.c1>img {
+
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+
+}
+
+.c3>img {
+
+    margin: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.c1>p {
+
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'college2';
+    margin-top: 10px;
+    width: 340px;
+    line-height: 25px;
+}
+
+.c2>p {
+
+    display: flex;
+    font-size: 16px;
+    font-family: 'college2';
+    margin-top: 10px;
+    width: 340px;
+    line-height: 25px;
+}
+
+.c3>p {
+
+    display: flex;
+    font-size: 16px;
+    font-family: 'college2';
+    margin-top: 10px;
+    width: 340px;
+    line-height: 25px;
+}
+
+#persona {
+
+    display: flex;
+    color: #5865f2;
+    font-family: 'college2';
+    font-size: 16px;
+    text-align: right;
+    margin-top: 20px;
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: column;
+
+
+
+
+}
+
+.c1 {
+
+    background-color: #fff;
+    border-radius: 15px;
+    height: 380px;
+    width: 400px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.c2 {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 380px;
+    width: 400px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.c3 {
+    background-color: #fff;
+    border-radius: 15px;
+    height: 380px;
+    width: 400px;
+    padding: 20px;
+}
+
+.botoesfinais {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/images/brilinhouwu.svg');
+    margin: 50px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: center;
+    background-position-y: top;
+
+
+}
+
+#textorodape {
+
+    display: flex;
+    font-size: 32px;
+    font-family: 'college7';
+    margin-bottom: -10px;
+    justify-content: center;
+    align-self: center;
+    margin-right: 50px;
+    margin-top: 20px;
+
+
+
+}
+
+.rodape {
+
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    
+    
+
+}
+
+#botaopreto {
+
+    display: flex;
+    background-color: #23272a;
+    height: 40px;
+    width: 250px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'college1';
+    margin-right: 20px;
+    font-size: 18px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#botaoazul {
+
+    display: flex;
+    background-color: #5865f2;
+    height: 40px;
+    width: 250px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'college1';
+    margin-right: 50px;
+    font-size: 18px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
